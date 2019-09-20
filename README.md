@@ -21,7 +21,7 @@ docker pull keinos/php8-ml:latest
 - Entry Point: not set
 - Composer: Installed under `/usr/local/bin/composer`
 - Working Directory: `/app` (alias of `/home/www-data`)
-- PHP-ML: Install via composer (`composer require php-ai/php-ml:^0.8.0`)
+- PHP-ML: Install via composer (`composer require php-ai/php-ml`)
   - Ref: [Repo](https://github.com/php-ai/php-ml) @ GitHub
   - Ref: [Docs](https://php-ml.readthedocs.io/en/latest/) @ ReadTheDocs
   - Sample `/app/composer.json` :
@@ -29,7 +29,7 @@ docker pull keinos/php8-ml:latest
     ```json
     {
         "require": {
-            "php-ai/php-ml": "^0.8.0"
+            "php-ai/php-ml": "^0.4.1"
         }
     }
     ```
