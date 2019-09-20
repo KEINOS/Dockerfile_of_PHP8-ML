@@ -4,7 +4,7 @@
 
 # Dockerfile of PHP8-ML
 
-Dockerfile of [PHP-ML](https://php-ml.org/), the Machine Learning library for PHP. (PHP8 + JIT on Alpine Linux)
+Dockerfile of [PHP-ML](https://php-ml.org/), the Machine Learning library for PHP. (PHP8-ish + JIT on Alpine Linux)
 
 ```bash
 docker pull keinos/php8-ml:latest
@@ -12,10 +12,11 @@ docker pull keinos/php8-ml:latest
 
 ## Basic Image Info
 
+- PHP: Closest version to PHP8 and JIT enabled.
 - Source: https://github.com/KEINOS/Dockerfile_of_php8-ML @ GitHub
 - Image: https://hub.docker.com/r/keinos/php8-ml @ Docker Hub
   - Target architecture: x86_64 (Intel. Maybe AMD too but ARM)
-- Base Image: [keinos/php8-composer-alpine](https://hub.docker.com/r/keinos/php8-composer-alpine)
+- Base Image: [keinos/php8-jit](https://hub.docker.com/r/keinos/php8-jit)
 - User: `www-data`
 - Entry Point: not set
 - Composer: Installed under `/usr/local/bin/composer`
