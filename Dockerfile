@@ -1,4 +1,6 @@
-FROM keinos/php8-jit:latest
+ARG NAME_TAG_IMAGE=latest
+
+FROM keinos/php8-jit:$NAME_TAG_IMAGE
 
 # Add Composer's global bin path
 ENV PATH="~/.composer/vendor/bin:$PATH"
