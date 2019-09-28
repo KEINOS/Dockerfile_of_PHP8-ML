@@ -10,6 +10,12 @@ Dockerfile of [PHP-ML](https://php-ml.org/), the Machine Learning library for PH
 docker pull keinos/php8-ml:latest
 ```
 
+For ARMv6l(arm32v6) architecture such as RaspberryPi Zero W use the below image.
+
+```bash
+docker pull keinos/php8-ml:arm32v6
+```
+
 ## Basic Image Info
 
 - PHP: Closest version to PHP8 and JIT enabled.
