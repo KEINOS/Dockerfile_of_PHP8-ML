@@ -80,7 +80,7 @@ b
 1. Clone this repo.
 2. Decide tag name to use as a base image from:
     - `arm32v6` `arm`(ARMv7) `amd` `latest`(default, x86_64)
-    - [[See available tags](https://cloud.docker.com/repository/docker/keinos/php8-jit/tags)]
+    - [[See available tags](https://hub.docker.com/r/keinos/php8-jit/tags)]
 3. Build image specifing the base image tag.
 
     The below sample will build with the base image `keinos/php8-jit:arm32v6` as `myname/php8-ml:local`.
